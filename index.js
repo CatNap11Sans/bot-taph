@@ -26,3 +26,5 @@ app.get('/', (req, res) => {
 app.listen(3000, () => {
   console.log('Servidor web ativo na porta 3000');
 });
+
+console.log("TOKEN:", process.env.TOKEN);
